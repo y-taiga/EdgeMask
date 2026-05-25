@@ -1,4 +1,4 @@
-# Force Chrome to Microsoft Edge
+# EdgeMask　(Force Chrome to Microsoft Edge)
 
 [![Version](https://img.shields.io/badge/version-1.0.0-2ea44f.svg)](./manifest.json)
 [![Manifest V3](https://img.shields.io/badge/Chrome-Manifest%20V3-4285F4.svg)](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3)
