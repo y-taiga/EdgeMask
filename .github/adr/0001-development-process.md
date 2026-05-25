@@ -121,11 +121,12 @@ Conventional Commits + cz-emoji を採用。
 - 先頭は小文字（英語の場合）
 - 末尾にピリオドを付けない
 - 50文字以内を目安
+- subjectは日本語
 
 #### 使用例
 
 ```text
-✨ feat(auth): add Google OAuth login
+✨ feat(auth): Google OAuthログインを追加
 
 Better Auth の OAuthプロバイダーとしてGoogleを追加。
 セッション管理はサーバーサイドクッキーで行う。
@@ -134,7 +135,7 @@ Closes #15
 ```
 
 ```text
-🐛 fix(feed): prevent duplicate RSS entries on re-fetch
+🐛 fix(feed): 再取得時に重複するRSSエントリを防止する
 
 RSSフィードの再取得時に重複エントリが生成されるバグを修正。
 upsert処理にurl+publishedAtの複合ユニーク制約を利用。
